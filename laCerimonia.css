@@ -1,0 +1,76 @@
+.laCerimonia{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.corpo {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 2560px;
+    justify-content: space-evenly;
+}
+
+.immagini {
+    max-width: 700px;
+}
+
+.immagini div {
+    padding: 30px;
+}
+
+.immagini div img {
+    border: 4px solid #c28945;
+}
+
+
+.testo h1 {
+    font-size: 70px;
+    color: #c28945;
+    text-decoration: underline;
+}
+
+.testo p {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+iframe{
+    border: 4px solid #c28945;
+    max-width: 700px;
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width:2558px){
+
+    .corpo{
+        justify-content: space-around;
+    }
+
+    .testo h1{
+        font-size: 50px;
+    }
+
+    .testo p {
+        font-size: 30px;
+    }
+
+    .immagini{
+        max-width: 600px;
+    }
+}
+
+@media (max-width:730px){
+    .testo h1 {
+        font-size: 30px;
+    }
+
+    .testo p {
+        font-size: 15px;
+    }
+}
+

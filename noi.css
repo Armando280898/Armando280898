@@ -1,0 +1,43 @@
+.divNoi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.testo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+    margin-left: 20px;
+}
+
+h1{
+    font-size: 50px;
+    color: #c28945;
+}
+
+p{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.linea{
+    width: 350px;
+    height: 2px;
+    background-color: #c28945;
+}
+
+.collage{
+    margin-top: 200px;
+}
+
+@media (max-width:1300px){
+    .divNoi{
+        flex-direction: column;
+    }
+
+    .collage{
+        margin-top: -300px;
+    }
+}

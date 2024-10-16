@@ -1,0 +1,115 @@
+.navBar {
+    position: unset;
+}
+
+.ilRicevimento {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.corpo {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 2560px;
+    justify-content: space-evenly;
+}
+
+.testo h1 {
+    font-size: 70px;
+    color: #c28945;
+    text-decoration: underline;
+}
+
+.testo p {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.immagini {
+    max-width: 700px;
+}
+
+.immagini div {
+    padding: 30px;
+}
+
+.immagini div img {
+    border: 4px solid #c28945;
+}
+
+iframe {
+    border: 4px solid #c28945;
+    max-width: 700px;
+    width: 100%;
+    height: 400px;
+}
+
+.hotelConvenzionati{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 400px 400px 400px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.uno{
+    grid-column: 1/4;
+    grid-row: 1;
+
+}
+
+.hotelConvenzionati p{
+    font-size: 40px;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+
+
+@media (max-width:2558px) {
+
+    .corpo {
+        justify-content: space-around;
+    }
+
+    .testo h1 {
+        font-size: 50px;
+    }
+
+    .testo p {
+        font-size: 30px;
+    }
+
+    .immagini {
+        max-width: 600px;
+    }
+}
+
+@media (max-width:730px) {
+    .testo h1 {
+        font-size: 30px;
+    }
+
+    .testo p {
+        font-size: 15px;
+    }
+
+    iframe{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1460px){
+    .hotelConvenzionati{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+}

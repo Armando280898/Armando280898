@@ -1,0 +1,72 @@
+.homePage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgContainer{
+    margin-top: 100px;
+}
+
+.testoImg{
+    margin-top: 50px;
+}
+
+.titoloWedding{
+    font-size: 180px;
+    margin-bottom: -140px;
+}
+
+.titoloAlfonsoluana{
+    font-size: 130px;
+    color: #c28945;
+}
+
+.anelli{
+    margin-top: -95px;
+    padding-left: 105px;
+    max-width: 500px;
+}
+
+@media (max-width:1700px){
+    .titoloWedding{
+        font-size: 100px;
+        margin-bottom: -80px;
+    }
+
+    .titoloAlfonsoluana{
+        font-size: 70px;
+    }
+
+    .anelli{
+        margin-top: -20px;
+        max-width: 400px;
+        padding-left: 20px;
+    }
+
+    .imgContainer{
+        max-width: 650px;
+    }
+}
+
+@media (max-width:1080px){
+    .homePage{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .titoloWedding{
+        font-size: 70px;
+        margin-bottom: -70px;
+        margin-left: 20px;
+    }
+
+    .titoloAlfonsoluana{
+        font-size: 50px;
+        margin-left: 20px;
+    }
+
+    .imgContainer{
+        margin-top: 20px;
+    }
+}

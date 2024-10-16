@@ -1,0 +1,128 @@
+img {
+    border: 4px solid #c28945;
+}
+
+.titolo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #c28945;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+    grid-gap: 25px;
+    padding: 20px;
+    font-size: 25px;
+    color: #c28945;
+    text-decoration: underline;
+    justify-items: center;
+}
+
+.grid div {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: -15px;
+}
+
+.gbox1 {
+    padding: 60px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.gbox2 {
+    padding: 60px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.gbox3 {
+    padding: 60px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.gbox4 {
+    padding: 60px;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.gbox5 {
+    padding: 60px;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.gbox6 {
+    padding: 60px;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.gbox7 {
+    padding: 60px;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.gbox8 {
+    padding: 60px;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.gbox9 {
+    grid-row: 4;
+    padding: 60px;
+    grid-column: 2;
+}
+
+.gbox10 {
+    grid-row: 4;
+    padding: 60px;
+    grid-column: 3;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+@media (max-width:1000px) {
+
+    .titolo {
+        font-size: 60px;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body{
+        background-image: url(../img/sfondoSitolungo.png);
+        background-repeat: repeat;
+    }
+
+}
+
