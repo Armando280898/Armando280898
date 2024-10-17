@@ -19,6 +19,7 @@ p{
 @media (max-width: 770px){
     h2{
         font-size: 30px;
+        text-align: center;
     }
 
     p{
