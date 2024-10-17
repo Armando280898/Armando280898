@@ -1,0 +1,17 @@
+h2{
+    color: #c28945;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.contatti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
