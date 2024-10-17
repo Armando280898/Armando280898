@@ -97,11 +97,15 @@ iframe {
     }
 
     .testo p {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     iframe{
         margin-right: 10px;
+    }
+
+    .hotelConvenzionati p{
+        font-size: 20px;
     }
 }
 
