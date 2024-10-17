@@ -98,6 +98,7 @@ iframe {
 
     iframe{
         margin-right: 10px;
+        width: 300px;
     }
 
     .hotelConvenzionati p{
@@ -110,6 +111,12 @@ iframe {
     }
 
     .testo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .due, .tre{
         display: flex;
         flex-direction: column;
         align-items: center;
